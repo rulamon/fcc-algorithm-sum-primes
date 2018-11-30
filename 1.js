@@ -5,7 +5,7 @@ function sumPrimes(num) {
 			primeArr.push(current);
 		}
 	}
-			return primeArr.reduce((acc, curr) => acc += curr);
+	return primeArr.reduce((acc, curr) => acc += curr);
 
 }
 console.log(sumPrimes(50000));
